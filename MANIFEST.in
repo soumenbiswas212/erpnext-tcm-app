@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tcm_stunner *.css
+recursive-include tcm_stunner *.csv
+recursive-include tcm_stunner *.html
+recursive-include tcm_stunner *.ico
+recursive-include tcm_stunner *.js
+recursive-include tcm_stunner *.json
+recursive-include tcm_stunner *.md
+recursive-include tcm_stunner *.png
+recursive-include tcm_stunner *.py
+recursive-include tcm_stunner *.svg
+recursive-include tcm_stunner *.txt
+recursive-exclude tcm_stunner *.pyc
